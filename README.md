@@ -1,1 +1,1 @@
-# G-Research
+# G Research Crypto Forecasting
