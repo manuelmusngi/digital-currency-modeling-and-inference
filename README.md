@@ -14,9 +14,10 @@ G-Research is Europe’s leading quantitative finance research firm. We have lon
 
 This dataset contains information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. Your challenge is to predict their future returns.
 
-As historic cryptocurrency prices are not confidential this will be a forecasting competition using the time series API. Furthermore the public leaderboard targets are publicly available and are provided as part of the competition dataset. Expect to see many people submitting perfect submissions for fun. Accordingly, THE PUBLIC LEADERBOARD FOR THIS COMPETITION IS NOT MEANINGFUL and is only provided as a convenience for anyone who wants to test their code. The final private leaderboard will be determined using real market data gathered after the submission period closes.
+As historic cryptocurrency prices are not confidential this will be a forecasting competition using the time series API. Furthermore the public leaderboard targets are publicly available and are provided as part of the competition dataset. Expect to see many people submitting perfect submissions for fun. 
 
-Files
+### Files
+
 train.csv - The training set
 
 timestamp - A timestamp for the minute covered by the row.
@@ -39,7 +40,8 @@ gresearch_crypto - An unoptimized version of the time series API files for offli
 
 supplemental_train.csv - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
-Time-series API Details
+### Time-series API Details
+
 Refer to the time series introduction notebook for an example of how to complete a submission. The time-series API has changed somewhat from previous competitions!
 
 Expect to see roughly three months worth of data in the test set. Until the forecasting phase of the competition, the API will just deliver a slice of the training data.
