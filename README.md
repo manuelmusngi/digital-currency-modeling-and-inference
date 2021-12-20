@@ -16,7 +16,7 @@ This dataset contains information on historic trades for several cryptoassets, s
 
 As historic cryptocurrency prices are not confidential this will be a forecasting competition using the time series API. Furthermore the public leaderboard targets are publicly available and are provided as part of the competition dataset. Expect to see many people submitting perfect submissions for fun. 
 
-### Files
+### Dataset Schema
 
 train.csv - The training set
 
