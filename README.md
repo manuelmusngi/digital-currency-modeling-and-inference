@@ -33,36 +33,12 @@ __train.csv__ - The training set
 
 __example_test.csv__ - An example of the data that will be delivered by the time series API.
 
-__example_sample_submission.csv__ - An example of the data that will be delivered by the time series API. The data is just copied from train.csv.
+__asset_details.csv__ - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 
-asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
-
-gresearch_crypto - An unoptimized version of the time series API files for offline work. You may need Python 3.7 and a Linux environment to run it without errors.
-
-supplemental_train.csv - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. 
+__supplemental_train.csv___ - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. 
 
 In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
-### Time-series API Details
-
-Refer to the time series introduction notebook for an example of how to complete a submission. The time-series API has changed somewhat from previous competitions!
-
-Expect to see roughly three months worth of data in the test set. Until the forecasting phase of the competition, the API will just deliver a slice of the training data.
-
-The API will require 0.5 GB of memory after initialization. The initialization step (env.iter_test()) will require meaningfully more memory than that; we recommend you do not load your model until after making that call. The API will also consume less than 30 minutes of runtime for loading and serving the data.
-
-The API loads the data using the following types:
-
-- Asset_ID: int8, 
-- Count: int32, 
-- row_id: int32, 
-- Count: int32, 
-- Open: float64, 
-- High: float64, 
-- Low: float64, 
-- Close: float64, 
-- Volume: float64, 
-- VWAP: float64
-
+### Difference from the Actual forecasting challenge is the ommission of the Time Series API for submission in the competition.
 
 
