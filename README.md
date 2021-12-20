@@ -22,14 +22,14 @@ train.csv - The training set
 
 - __timestamp__ - A timestamp for the minute covered by the row.
 - __Asset_ID__ - An ID code for the cryptoasset.
-- Count - The number of trades that took place this minute.
-- Open - The USD price at the beginning of the minute.
-- High - The highest USD price during the minute.
-- Low - The lowest USD price during the minute.
-- Close - The USD price at the end of the minute.
-- Volume - The number of cryptoasset units traded during the minute.
-- VWAP - The volume weighted average price for the minute.
-- Target - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
+- __Count__ - The number of trades that took place this minute.
+- __Open__ - The USD price at the beginning of the minute.
+- __High__ - The highest USD price during the minute.
+- __Low__ - The lowest USD price during the minute.
+- __Close__ - The USD price at the end of the minute.
+- __Volume__ - The number of cryptoasset units traded during the minute.
+- __VWAP__ - The volume weighted average price for the minute.
+- __Target__ - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
 
 example_test.csv - An example of the data that will be delivered by the time series API.
 
