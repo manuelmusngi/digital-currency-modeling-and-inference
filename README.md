@@ -18,7 +18,7 @@ As historic cryptocurrency prices are not confidential this will be a forecastin
 
 ### Dataset Schema
 
-train.csv - The training set
+__train.csv__ - The training set
 
 - __timestamp__ - A timestamp for the minute covered by the row.
 - __Asset_ID__ - An ID code for the cryptoasset.
@@ -31,9 +31,9 @@ train.csv - The training set
 - __VWAP__ - The volume weighted average price for the minute.
 - __Target__ - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
 
-example_test.csv - An example of the data that will be delivered by the time series API.
+__example_test.csv__ - An example of the data that will be delivered by the time series API.
 
-example_sample_submission.csv - An example of the data that will be delivered by the time series API. The data is just copied from train.csv.
+__example_sample_submission.csv__ - An example of the data that will be delivered by the time series API. The data is just copied from train.csv.
 
 asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 
