@@ -20,8 +20,8 @@ As historic cryptocurrency prices are not confidential this will be a forecastin
 
 train.csv - The training set
 
-- timestamp - A timestamp for the minute covered by the row.
-- Asset_ID - An ID code for the cryptoasset.
+- __timestamp__ - A timestamp for the minute covered by the row.
+- __Asset_ID__ - An ID code for the cryptoasset.
 - Count - The number of trades that took place this minute.
 - Open - The USD price at the beginning of the minute.
 - High - The highest USD price during the minute.
