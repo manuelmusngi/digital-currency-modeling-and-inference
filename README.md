@@ -51,6 +51,18 @@ Expect to see roughly three months worth of data in the test set. Until the fore
 
 The API will require 0.5 GB of memory after initialization. The initialization step (env.iter_test()) will require meaningfully more memory than that; we recommend you do not load your model until after making that call. The API will also consume less than 30 minutes of runtime for loading and serving the data.
 
-The API loads the data using the following types: Asset_ID: int8, Count: int32, row_id: int32, Count: int32, Open: float64, High: float64, Low: float64, Close: float64, Volume: float64, VWAP: float64
+The API loads the data using the following types:
+
+- Asset_ID: int8, 
+- Count: int32, 
+- row_id: int32, 
+- Count: int32, 
+- Open: float64, 
+- High: float64, 
+- Low: float64, 
+- Close: float64, 
+- Volume: float64, 
+- VWAP: float64
+
 
 
