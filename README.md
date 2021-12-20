@@ -20,21 +20,22 @@ As historic cryptocurrency prices are not confidential this will be a forecastin
 
 train.csv - The training set
 
-timestamp - A timestamp for the minute covered by the row.
-Asset_ID - An ID code for the cryptoasset.
-Count - The number of trades that took place this minute.
-Open - The USD price at the beginning of the minute.
-High - The highest USD price during the minute.
-Low - The lowest USD price during the minute.
-Close - The USD price at the end of the minute.
-Volume - The number of cryptoasset units traded during the minute.
-VWAP - The volume weighted average price for the minute.
-Target - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
-example_test.csv - An example of the data that will be delivered by the time series API.
+- timestamp - A timestamp for the minute covered by the row.
+- Asset_ID - An ID code for the cryptoasset.
+- Count - The number of trades that took place this minute.
+- Open - The USD price at the beginning of the minute.
+- High - The highest USD price during the minute.
+- Low - The lowest USD price during the minute.
+- Close - The USD price at the end of the minute.
+- Volume - The number of cryptoasset units traded during the minute.
+- VWAP - The volume weighted average price for the minute.
+- Target - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated./
 
-example_sample_submission.csv - An example of the data that will be delivered by the time series API. The data is just copied from train.csv.
+example_test.csv - An example of the data that will be delivered by the time series API./
 
-asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
+example_sample_submission.csv - An example of the data that will be delivered by the time series API. The data is just copied from train.csv./
+
+asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric./
 
 gresearch_crypto - An unoptimized version of the time series API files for offline work. You may need Python 3.7 and a Linux environment to run it without errors.
 
