@@ -29,17 +29,19 @@ train.csv - The training set
 - Close - The USD price at the end of the minute.
 - Volume - The number of cryptoasset units traded during the minute.
 - VWAP - The volume weighted average price for the minute.
-- Target - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated./
+- Target - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
 
-example_test.csv - An example of the data that will be delivered by the time series API./
+example_test.csv - An example of the data that will be delivered by the time series API.
 
-example_sample_submission.csv - An example of the data that will be delivered by the time series API. The data is just copied from train.csv./
+example_sample_submission.csv - An example of the data that will be delivered by the time series API. The data is just copied from train.csv.
 
-asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric./
+asset_details.csv - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 
 gresearch_crypto - An unoptimized version of the time series API files for offline work. You may need Python 3.7 and a Linux environment to run it without errors.
 
-supplemental_train.csv - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
+supplemental_train.csv - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. 
+
+In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
 ### Time-series API Details
 
