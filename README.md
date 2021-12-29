@@ -39,6 +39,6 @@ __supplemental_train.csv___ - After the submission period is over this file's da
 
 In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
-### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
+#### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
 
 
