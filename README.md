@@ -41,7 +41,7 @@ In the Evaluation phase, the train, train supplement, and test set will be conti
 
 ## Evaluation
 
-Submissions are evaluated on a weighted version of the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient)
+Submissions are evaluated on a weighted version of the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
 
 #### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
 
