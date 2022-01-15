@@ -32,7 +32,7 @@ __train.csv__ - The training set
 
 __supplemental_train.csv___ - After the submission period is over this file's data will be replaced with cryptoasset prices from the submission period. This has the same dataset schema as as __train.csv__.
 
-__example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__>
+__example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
 
 __asset_details.csv__ - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 
