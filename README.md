@@ -35,6 +35,9 @@ __supplemental_train.csv___ - After the submission period is over this file's da
 __example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
 
 __asset_details.csv__ - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
+- __Asset_ID__ - ID code for the cryptoasset.
+- __Asset_Name__ - Real name of the cryptoasset.
+- __Weight__ - weight each cryptoasset receives in the metric.
 
 In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
