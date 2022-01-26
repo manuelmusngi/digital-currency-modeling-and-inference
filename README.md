@@ -4,15 +4,11 @@
 
 ## Description
 
-In this competition, machine learning was used to forecast short term returns in 14 popular cryptocurrencies. G-Research have amassed a dataset of millions of rows of high-frequency market data dating back to 2018 which you can be used to build your model.
-
-The simultaneous activity of thousands of traders ensures that most signals will be transitory, persistent alpha will be exceptionally difficult to find, and the danger of overfitting will be considerable. In addition, since 2018, interest in the cryptomarket has exploded, so the volatility and correlation structure in our data are likely to be highly non-stationary. The successful contestant will pay careful attention to these considerations, and in the process gain valuable insight into the art and science of financial forecasting.
+In this competition, machine learning was used to forecast short term returns in 14 popular cryptocurrencies. G-Research have amassed a dataset of millions of rows of high-frequency market data dating back to 2018 which you can be used to build the model.
 
 ## Data
 
-This dataset contains information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. Your challenge is to predict their future returns.
-
-As historic cryptocurrency prices are not confidential this will be a forecasting competition using the time series API. Furthermore the public leaderboard targets are publicly available and are provided as part of the competition dataset. Expect to see many people submitting perfect submissions for fun. 
+The dataset contained information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. The challenge was to predict their future returns.
 
 ### Dataset Schema
 
