@@ -1,8 +1,10 @@
 # G-Research Crypto Forecasting
 
+[Kaggle G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting/overview)
+
 ## Description
 
-In this competition, machine learning is used to forecast short term returns in 14 popular cryptocurrencies. G-Research have amassed a dataset of millions of rows of high-frequency market data dating back to 2018 which you can be used to build your model.
+In this competition, machine learning was used to forecast short term returns in 14 popular cryptocurrencies. G-Research have amassed a dataset of millions of rows of high-frequency market data dating back to 2018 which you can be used to build your model.
 
 The simultaneous activity of thousands of traders ensures that most signals will be transitory, persistent alpha will be exceptionally difficult to find, and the danger of overfitting will be considerable. In addition, since 2018, interest in the cryptomarket has exploded, so the volatility and correlation structure in our data are likely to be highly non-stationary. The successful contestant will pay careful attention to these considerations, and in the process gain valuable insight into the art and science of financial forecasting.
 
@@ -41,7 +43,7 @@ In the Evaluation phase, the train, train supplement, and test set will be conti
 
 ## Evaluation
 
-Submissions are evaluated on a weighted version of the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
+Submissions were evaluated on a weighted version of the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
 
 #### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
 
