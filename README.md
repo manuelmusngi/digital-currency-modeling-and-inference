@@ -1,4 +1,4 @@
-# Crypto Forecasting
+# Crypto Digital Currency Forecasting
 
 ## Description
 
@@ -35,8 +35,6 @@ __asset_details.csv__ - Provides the real name and of the cryptoasset for each A
 
 
 ## Evaluation
-
-In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
 
 #### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
