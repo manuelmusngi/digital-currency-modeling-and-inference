@@ -33,11 +33,11 @@ __asset_details.csv__ - Provides the real name and of the cryptoasset for each A
 - __Asset_Name__ - Real name of the cryptoasset.
 - __Weight__ - weight each cryptoasset receives in the metric.
 
-In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
 
 ## Evaluation
 
-Submissions were evaluated on a weighted version of the [Pearson correlation coefficient](https://en.wikipedia.org/wiki/Pearson_correlation_coefficient).
+In the Evaluation phase, the train, train supplement, and test set will be contiguous in time, apart from any missing data. The current copy, which is just filled approximately the right amount of data from train.csv is provided as a placeholder.
+
 
 #### Difference from the Actual forecasting challenge is the omission of the Time Series API for submission in the competition.
 
