@@ -1,4 +1,4 @@
-# Crypto Digital Currency Forecasting
+# Cryptographic Digital Currency Forecasting
 
 ## Description
 
