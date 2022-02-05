@@ -8,9 +8,7 @@ Machine learning was used to forecast short term returns in 14 popular cryptocur
 
 ## Data
 
-The dataset contained information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. The challenge was to predict their future returns.
-
-### Dataset Schema
+The dataset contained information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. 
 
 __train.csv__ - The training set
 
