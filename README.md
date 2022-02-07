@@ -37,6 +37,8 @@ __asset_details.csv__ - Provides the real name and of the cryptoasset for each A
 ## Evaluation
 
 
-#### Difference from the Actual forecasting challenge are the omission of the Time Series API for submission in the competition, use of the supplemental_train.csv and example_test.csv
+#### Note
+
+Difference from the Actual forecasting challenge are the omission of the Time Series API for submission in the competition, use of the supplemental_train.csv and example_test.csv, and the Evaluation metrics.
 
 
