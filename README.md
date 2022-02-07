@@ -23,15 +23,15 @@ __train.csv__ - The training set
 - __VWAP__ - The volume weighted average price for the minute.
 - __Target__ - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
 
-
-__supplemental_train.csv___ - Cryptoasset prices has the same dataset schema as as __train.csv__.
-
-__example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
-
 __asset_details.csv__ - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 - __Asset_ID__ - ID code for the cryptoasset.
 - __Asset_Name__ - Real name of the cryptoasset.
 - __Weight__ - weight each cryptoasset receives in the metric.
+
+
+__supplemental_train.csv___ - Cryptoasset prices has the same dataset schema as as __train.csv__.
+
+__example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
 
 
 ## Evaluation Metrics
