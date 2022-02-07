@@ -34,7 +34,7 @@ __asset_details.csv__ - Provides the real name and of the cryptoasset for each A
 - __Weight__ - weight each cryptoasset receives in the metric.
 
 
-## Evaluation
+## Evaluation Metrics
 
 
 ## Note
