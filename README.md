@@ -35,10 +35,5 @@ __example_test.csv__ - An example of the data that will be delivered by the time
 
 
 ## Evaluation Metrics
-
-
 ## Note
-
-Difference from the Actual forecasting challenge are the omission of the Time Series API for submission in the competition, use of the supplemental_train.csv and example_test.csv, and the Evaluation metrics.
-
 
