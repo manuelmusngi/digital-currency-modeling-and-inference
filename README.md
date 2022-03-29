@@ -21,7 +21,7 @@ __train.csv__ - The training set
 - __Close__ - The USD price at the end of the minute.
 - __Volume__ - The number of cryptoasset units traded during the minute.
 - __VWAP__ - The volume weighted average price for the minute.
-- __Target__ - 15 minute residualized returns. See the 'Prediction and Evaluation' section of this notebook for details of how the target is calculated.
+- __Target__ - 15 minute residualized returns. 
 
 __asset_details.csv__ - Provides the real name and of the cryptoasset for each Asset_ID and the weight each cryptoasset receives in the metric.
 - __Asset_ID__ - ID code for the cryptoasset.
