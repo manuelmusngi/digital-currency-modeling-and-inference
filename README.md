@@ -29,7 +29,7 @@ __asset_details.csv__ - Provides the real name and of the cryptoasset for each A
 - __Weight__ - weight each cryptoasset receives in the metric.
 
 
-__supplemental_train.csv___ - Cryptoasset prices has the same dataset schema as as __train.csv__.
+__supplemental_train.csv___ - Cryptoasset prices has the same dataset schema as __train.csv__.
 
 __example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
 
