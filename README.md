@@ -35,8 +35,6 @@ __example_test.csv__ - An example of the data that will be delivered by the time
 
 
 ### Evaluation Metrics
-MAE is calculated as:<ref name=":0">{{Cite journal|last=Willmott|first=Cort J.|last2=Matsuura|first2=Kenji|date=December 19, 2005|title=Advantages of the mean absolute error (MAE) over the root mean square error (RMSE) in assessing average model performance|journal=Climate Research|volume=30|pages=79–82|doi=10.3354/cr030079|doi-access=free}}</ref>
-<math display="block">\mathrm{MAE} = \frac{\sum_{i=1}^n\left| y_i - x_i\right|}{n} =\frac{\sum_{i=1}^n\left| e_i \right|}{n}.</math>
-It is thus an arithmetic average of the absolute errors <math>|e_i| = |y_i - x_i|</math>, where <math>y_i</math> is the prediction and <math>x_i</math> the true value. Note that alternative formulations may include relative frequencies as weight factors. The mean absolute error uses the same scale as the data being measured. 
+
 ### Note
 
