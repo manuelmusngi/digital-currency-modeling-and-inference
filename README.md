@@ -40,6 +40,6 @@ __example_test.csv__ - An example of the data that will be delivered by the time
 - __MSE__ Mean Squared Error
 - __RMSE__ Root Mean Squared Error
 - __MAPE__ Mean Absolute Percentage Error
-- __MASE__ Mean Absolute Scaledd Error 
+- __MASE__ Mean Absolute Scaled Error 
 
 
