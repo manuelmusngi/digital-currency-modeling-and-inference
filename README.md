@@ -6,7 +6,7 @@
 
 Machine learning was used to model and forecast short term returns in 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 which can be used to build the model.
 
-### Data
+### Data Schema
 
 The dataset contained information on historic trades for several cryptoassets, such as Bitcoin and Ethereum. 
 
