@@ -44,4 +44,5 @@ __example_test.csv__ - An example of the data that will be delivered by the time
 
 ### References
 
+- [N-BEATS: Neural basis expansion analysis for interpretable time series forecasting](https://arxiv.org/abs/1905.10437)
 
