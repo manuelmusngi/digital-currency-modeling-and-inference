@@ -1,7 +1,5 @@
 ### Cryptographic Digital Currency Forecasting
 
-- [G-Research Crypto Forecasting](https://www.kaggle.com/c/g-research-crypto-forecasting/overview)
-
 ### Description
 
 Machine learning was used to model and forecast short term performance in 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 which can be used to build the model.
