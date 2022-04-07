@@ -2,7 +2,7 @@
 
 ### Description
 
-Machine learning was used to model and forecast short term performance in 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 which can be used to build the model.
+Machine learning was used to model and evaluate short term performance in 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 which can be used to build the model.
 
 ### Data Schema
 
