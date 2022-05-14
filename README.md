@@ -1,4 +1,4 @@
-### Cryptographic Digital Currency Modeling and Inference
+### Digital Currency Modeling and Inference
 
 ### Description
 
