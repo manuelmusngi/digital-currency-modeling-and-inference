@@ -32,7 +32,7 @@ __supplemental_train.csv___ - Cryptoasset prices has the same dataset schema as 
 __example_test.csv__ - An example of the data that will be delivered by the time series API. This has the same dataset schema as the __train.csv__.
 
 
-### Inference Metrics
+### Inference Measurement
 
 - __MAE__ Mean Absolute Error
 - __MSE__ Mean Squared Error
