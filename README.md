@@ -2,7 +2,7 @@
 
 ### Description
 
-Implementation of machine learning to model and evaluate performance on 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 was used to build the model.
+This is an implementation of machine learning to model and evaluate performance on 14 popular cryptocurrencies. The amassed dataset of millions of rows of high-frequency market data dating back to 2018 was used to build the model.
 
 ### Data Schema
 
